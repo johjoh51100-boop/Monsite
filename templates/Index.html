@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}Connexion{% endblock %}
+
+{% block header %}Connexion au site{% endblock %}
+
+{% block content %}
+<form method="POST" class="form-login">
+    <input type="password" name="password" placeholder="Mot de passe">
+    <button type="submit">Se connecter</button>
+</form>
+{% if message %}
+    <p class="error">{{ message }}</p>
+{% endif %}
+{% endblock %}
