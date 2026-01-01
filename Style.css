@@ -1,0 +1,55 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #282c34, #61dafb);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px;
+    background-color: #20232a;
+}
+
+header .logo {
+    width: 80px;
+    vertical-align: middle;
+}
+
+h1 {
+    margin: 10px 0;
+}
+
+main {
+    padding: 40px;
+}
+
+.form-login input {
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+}
+
+.form-login button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #61dafb;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.error {
+    color: yellow;
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #20232a;
+}
